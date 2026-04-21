@@ -1,0 +1,51 @@
+---
+layout: base.njk
+---
+
+<article class="gallery">
+  <header class="gallery__header">
+    <h1>{{ title }}</h1>
+    <div class="gallery__details">
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+      <span> | </span>
+    </div>
+  </header>
+
+  <main class="gallery__content">
+    {{ content | safe }}
+  </main>
+
+  <aside class="gallery__aside">
+    <div class="gallery__tags">
+      {% for tag in tags | pageTags %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="gallery__pagination">
+      {%- set nextgallery = collections.gallerys | getNextCollectionItem(page) %}
+      {%- if nextgallery %}
+
+        <a href="{{ nextgallery.url | url }}">
+          <span>←</span>
+          <span>{{ nextgallery.data.title }}</span>
+        </a>
+
+      {% endif %}
+
+      {%- set previousgallery = collections.gallerys | getPreviousCollectionItem(page) %}
+      {%- if previousgallery %}
+
+        <a href="{{ previousgallery.url | url }}">
+          <span>{{ previousgallery.data.title }}</span>
+          <span>→</span>
+        </a>
+
+      {% endif %}
+    </nav>
+  </aside>
+
+</article>

@@ -1,14 +1,16 @@
 ---
-title: About Aidan Charles Powell
+title: Über Back To The Railway
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+name: Back To The Railway
+image: '/images/logo.png'
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+Back To The Railway ist eine Community, die auf einem Prinzip gegründet wurde: Eisenbahn für alle!
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+Das Thema Eisenbahn ist häufig ein eher männerlastiges Hobby. Als eine Person, die von dem üblichen Schema auch nur leicht abweicht, kann es sehr schwer sein, den, ähm... *Anschluss* zu finden.
+Daher haben wir diese Community ins Leben gerufen. Bist du eine Frau oder weiblich gelesene Person? Oh Schreck, das ist mancherorts problematisch!
+Bist du auf irgendeine Art queer? Gaaaaanz schwierig.
+An dem Punkt kuppeln wir an, und übernehmen die verlorenen Kurswagen, damit auch du das Hobby in vollen Zügen genießen kannst!
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
-
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+Sollten sich jemals genügend Mitglieder einfinden, gedenken wir, einen richtigen e.V. zu gründen, der mit lokalen Niederlassungen Projekte veranstaltet, wie z.B. gemeinsame Ausflüge, Bastelabende
+für Modellbahn, und solche Dinge.

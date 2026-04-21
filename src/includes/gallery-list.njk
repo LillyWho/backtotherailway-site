@@ -1,0 +1,31 @@
+<ul class="gallery-list">
+  {% for gallery in gallerylist | reverse %}
+    <li class="gallery-list__item">
+      <div>
+        <div class="gallery-list__meta">
+          <time datetime="{{ gallery.date | htmlDateString }}">
+            {{ gallery.date | readableDate }}
+          </time>
+          <span> | </span>
+        </div>
+
+        <div class="gallery-list__tags">
+          {% for tag in gallery.data.tags %}
+            {%- if collections.tagList.indexOf(tag) != -1 -%}
+              {% set tagUrl %}/gallerytags/{{ tag }}/{% endset %}
+              <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+      </div>
+
+      <h3 class="gallery-list__title">
+        <a  href="{{ gallery.url }}">{{ gallery.data.title }}</a>
+      </h3>
+
+      <p class="gallery-list__excerpt">{{ gallery.templateContent | excerpt | safe  }}</p>
+
+      <a class="gallery-list__read-more" href="{{ gallery.url }}">Bilderpost ansehen</a>
+    </li>
+  {% endfor %}
+</ul>

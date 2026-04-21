@@ -1,11 +1,10 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
-  "url": "https://eleventyduo.netlify.app",
+  "name": "Back To The Railway",
+  "description": "Back To The Railway ist ein Projekt, um denjenigen das Hobby Eisenbahn zu ermöglichen, die sonst immer in Vereinen und Ähnlichem zu kurz kommen.",
+  "url": "https://backtotherailway.de",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
-    "twitterHandle": "author_handle"
+    "name": "Lily Blythe",
+    "email": "lily@backtotherailway.de"
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
@@ -15,32 +14,40 @@
       "external": false
     },
     {
-      "text": "About",
+      "text": "Galerie",
+      "url": "/gallery",
+      "external": false
+    },
+    {
+      "text": "Über uns",
       "url": "/about",
+      "external": false
+    },
+    {
+      "text": "Impressum",
+      "url": "/impressum",
       "external": false
     }
   ],
   "socialLinks": [
     {
-      "text": "Instagram",
-      "url": "https://instagram.com/",
-      "external": true
-    },
-    {
       "text": "GitHub",
-      "url": "https://github.com/yinkakun/eleventy-duo",
+      "url": "https://github.com/LillyWho/backtotherailway-site",
       "external": true
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/",
+      "text": "Unser Discord Server",
+      "url": "https://discord.com/invite/JEB9GX7a3m",
       "external": true
-    }
-  ],
-  "footerLinks": [
+    },
     {
-      "text": "RSS",
-      "url": "/feed.xml",
+      "text": "Fluxer",
+      "url": "https://fluxer.backtotherailway.de/",
+      "external": true
+    },
+    {
+      "text": "Schiebebuehne Partner-Subreddit",
+      "url": "https://reddit.com/r/schiebebuehne",
       "external": true
     }
   ],

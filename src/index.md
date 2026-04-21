@@ -1,8 +1,14 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Back To The Railway'
+image: 'images/logo.png'
 ---
 
-# Hello World
+# Back To The Railway
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+Back To The Railway ist eine Community, um denjenigen einen Platz zu bieten, die beim Thema Eisenbahn sonst ausgegrenzt werden, oder zu kurz kommen.
+
+
+
+
+##### *Back To The Railway ist stolzer Partner der LGBTQIA+-Community!*

@@ -2,8 +2,9 @@
   max-width: none;
   width: 100%;
   text-transform: capitalize;
-  text-transform: uppercase;
+/*  text-transform: uppercase; */
   margin-bottom: 4rem;
+  color: rgb(255,255,255);
 }
 
 .header__content {
@@ -17,21 +18,23 @@
   padding: 1rem;
   margin-top: 1rem;
   border-bottom: 1px solid rgba(230, 230, 230, 1);
+  color: #FFB3D5;
 }
 
 .site-title {
   font-size: var(--text-xl);
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: rgb(255,255,255);
 }
 
 .site-title a {
-  color: rgb(6 6 6);
+  color: rgb(255 255 255);
   text-decoration: none;
 }
 
 .site-title a:hover {
-  color: rgb(41, 41, 41);
+  color: rgb(255, 255, 255);
 }
 
 .nav__list {
@@ -44,7 +47,7 @@
 }
 
 .nav__list a {
-  color: rgb(117, 117, 117);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -59,5 +62,5 @@
 }
 
 .nav__list a:hover {
-  color: rgb(41, 41, 41);
+  color: rgb(240, 255, 255);
 }

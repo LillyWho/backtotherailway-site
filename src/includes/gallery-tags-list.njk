@@ -1,0 +1,6 @@
+{% for tag in collections.gallerytagList %}
+  {% set tagUrl %}/gallerytags/{{ tag }}/{% endset %}
+
+  <a href="{{ tagUrl | url }}" class="gallery-tag">#{{ tag }}</a>
+
+{% endfor %}

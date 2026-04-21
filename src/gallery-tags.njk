@@ -11,12 +11,12 @@ pagination:
     - tagList
   addAllPagesToCollections: true
 layout: base.njk
-permalink: /tags/{{ tag }}/
+permalink: /gallerytags/{{ tag }}/
 eleventyComputed:
   title: "{{ tag | title }}"
-  description: "Alle posts mit Tag: “{{ tag }}”"
+  description: "Alle Gallerieeinträge mit Tag: “{{ tag }}”"
 ---
 <h1>{{ tag | title }}</h1>
 
 {% set postslist = collections[tag] %}
-{% include "posts-list.njk" %}
+{% include "gallery-list.njk" %}

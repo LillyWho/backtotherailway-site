@@ -28,11 +28,18 @@ layout: base
 </header>
 
 <section class="post-list__wrapper">
-  <h2 class="post-list__heading">Recent Posts</h2>
+  <h2 class="post-list__heading">Neueste Posts</h2>
 
   {% set postslist = collections.posts | head(-10) %}
   {% include "posts-list.njk" %}
 
 </section>
+<section class="gallery-list__wrapper">
+  <h2 class="gallery-list__heading">Neueste Gallerieeinträge</h2>
 
-<a class="all-posts-link" href="{{ '/blog/' | url }}">View All Posts</a>
+  {% set postslist = collections.posts | head(-10) %}
+  {% include "gallery-list.njk" %}
+
+</section>
+
+<a class="all-posts-link" href="{{ '/gallery/' | url }}">Ganze Bildergalerie ansehen</a>

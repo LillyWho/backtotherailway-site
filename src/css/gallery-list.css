@@ -15,21 +15,21 @@
   color: var(--accent);
 }
 
-.post-list__wrapper {
+.gallery-list__wrapper {
   margin-top: 6rem;
 }
 
-.post-list__heading {
+.gallery-list__heading {
   font-size: var(--text-3xl);
   margin-bottom: 1rem;
   color: rgb(255,255,255);
 }
 
-.post-list {
+.gallery-list {
   list-style: none;
 }
 
-.post-list__item {
+.gallery-list__item {
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
@@ -37,62 +37,62 @@
   border-top: 1px solid rgba(230, 230, 230, 1);
 }
 
-.post-list__item:last-child {
+.gallery-list__item:last-child {
   border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 
-.post-list__title {
+.gallery-list__title {
   font-size: var(--text-2xl);
   margin-top: 0.5rem;
 }
 
-.post-list__title a {
+.gallery-list__title a {
   font-weight: normal;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-.post-list__title a:hover {
+.gallery-list__title a:hover {
   /* color: var(--accent); */
   text-decoration: underline;
 }
 
-.post-list__meta {
+.gallery-list__meta {
   font-size: var(--text-sm);
   margin-top: 1rem;
   color: rgb(255, 255, 255);
 }
 
-.post-list__meta > * + * {
+.gallery-list__meta > * + * {
   margin-left: 1rem;
 }
 
-.post-list__tags {
+.gallery-list__tags {
   text-decoration: none;
   font-size: var(--text-sm);
   margin-top: 0.5rem;
   color: var(--accent);
 }
 
-.post-list__tags a {
+.gallery-list__tags a {
   text-decoration: none;
   color: var(--accent);
 }
 
-.post-list__tags a:hover {
+.gallery-list__tags a:hover {
   color: var(--accent);
 }
 
-.post-list__tags > * + * {
+.gallery-list__tags > * + * {
   margin-left: 1rem;
 }
 
-.post-list__excerpt {
+.gallery-list__excerpt {
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.post-list__read-more {
+.gallery-list__read-more {
   width: fit-content;
   font-size: 1rem;
   text-transform: capitalize;
@@ -101,11 +101,11 @@
   color: var(--accent);
 }
 
-.post-list__read-more:hover {
+.gallery-list__read-more:hover {
   text-decoration: underline;
 }
 
-.all-posts-link {
+.all-gallerys-link {
   margin-top: 4rem;
   width: fit-content;
   display: inline-block;

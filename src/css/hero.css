@@ -5,11 +5,13 @@
 
 .hero h1 {
   font-size: var(--text-5xl);
+  color: var(--accent);
 }
 
 .hero p {
   font-size: var(--text-2xl);
   margin-top: 1rem;
+  color: var(--accent);
 }
 
 .hero__social-links {
@@ -23,6 +25,7 @@
 .hero__social-links > li {
   margin-right: 2rem;
   margin-top: 1rem;
+  color: var(--accent);
 }
 
 .hero__skip-link {

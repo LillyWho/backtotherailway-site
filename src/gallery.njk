@@ -1,0 +1,13 @@
+--- 
+layout: base.njk 
+permalink: /gallery/ 
+---
+
+<h1>Alle Gallerieeinträge</h1>
+
+<div class="gallerytags">
+  {% include "gallery-tags-list.njk" %}
+</div>
+
+{% set galleryslist = collections.gallerys %}
+{% include "gallery-list.njk" %}
